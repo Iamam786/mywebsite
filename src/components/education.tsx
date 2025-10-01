@@ -4,17 +4,23 @@ import { GraduationCap, Award } from "lucide-react"
 export function Education() {
   const education = [
     {
-      degree: "Bachelor of Computer Science & Engineering",
-      institution: "Dr APJ Abdul Kalam Technical University Lucknow India",
-      period: "2017 — 2022",
-      description: "Focused on software engineering, web development, and database systems. Graduated with honors.",
+      "degree": "Bachelor of Computer Science & Engineering",
+      "institution": "Dr APJ Abdul Kalam Technical University, Lucknow, India",
+      "period": "2017 — 2022",
+      "description": "Completed a rigorous curriculum emphasizing software engineering, data structures, web technologies, and database systems. Gained practical experience through lab work, mini projects, and a final-year capstone. Specialized in modern computing frameworks and graduated with honors."
     },
     {
-      degree: "Full Stack Web Development Bootcamp",
-      institution: "NareshIT Hyderabad India",
-      period: "Dec-2022",
-      description:
-        "Intensive program covering modern web development technologies including Html,CSS,JavaScript,JQuery, JQuery Ui,Bootstrap, React, Node.js, and MongoDB.",
+      "degree": "Intermediate || HSC (PCM)",
+      "institution": "Udit Narayan Intermediate College, Padrauna Kushi Nagar Uttar Pradesh, India",
+      "period": "2014 — 2016",
+      "description": "Completed Higher Secondary Certificate with a focus on Physics, Chemistry, and Mathematics. Developed a strong foundation in scientific principles and analytical thinking, achieving high academic performance."
+    },
+    {
+      "degree": "High School || SSC (Science)",
+      "institution": "QE Girls I C Guruwaliya, Kushi Nagar Uttar Pradesh, India",
+      "period": "2012 — 2014",
+      "description": "Completed Secondary School Certificate with a focus on Science subjects. Gained essential knowledge in core scientific disciplines, laying the groundwork for further studies in science and technology."
+
     },
   ]
 

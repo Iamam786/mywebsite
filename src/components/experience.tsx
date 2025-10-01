@@ -3,28 +3,28 @@ import { Card, CardContent } from "../components/ui/card"
 export function Experience() {
   const experiences = [
     {
-      period: "2023 — Present",
-      title: "Full Stack Developer",
-      company: "Freelance",
-      description:
-        "Developing modern web applications using React, Node.js, and MongoDB. Creating responsive, user-friendly interfaces and robust backend systems for various clients.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-    },
-    {
-      period: "2022 — 2023",
+      period: "Jun 2024 - Jul 2025",
       title: "Frontend Developer",
-      company: "Tech Startup",
+      company: "ClickinPedia",
       description:
-        "Built and maintained user interfaces for web applications. Collaborated with design and backend teams to implement pixel-perfect, responsive designs.",
-      technologies: ["JavaScript", "React", "CSS", "HTML", "Git"],
+        "Developing modern web applications using React, Node.js, and Tailwind Css. Creating responsive, user-friendly interfaces and robust backend systems for various clients.",
+      technologies: ["React", "Next.js", "Tailwind CSS", "Bootstrap"],
     },
     {
-      period: "2021 — 2022",
-      title: "Junior Web Developer",
-      company: "Digital Agency",
+      period: "Mar 2023 - Jun 2024",
+      title: "Business Development Executive",
+      company: "Next Business Media",
       description:
-        "Developed websites and web applications for clients. Gained experience in full-stack development and learned modern web development practices.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "Managed client relationships through LinkedIn and email, leveraging Sales Navigator to identify prospects and nurture leads. Coordinated outreach campaigns and maintained communication to drive business growth.",
+      technologies: ["LinkedIn", "Sales Navigator", "Email Outreach", "CRM", "Lead Generation"],
+    },
+    {
+      period: "Oct 2022 - Feb 2023",
+      title: "Full Stack Web Developer Intern",
+      company: "Naresh i Technologies",
+      description:
+        "Assisted in designing and developing both frontend and backend components for web applications. Collaborated with senior developers to implement features, fix bugs, and optimize performance using modern web technologies.",
+      technologies: ["HTML", "CSS", "JavaScript", "Node", "Express", "MongoDB", "React", "Bootstrap", "JQuery", "Jquery UI"],
     },
   ]
 
