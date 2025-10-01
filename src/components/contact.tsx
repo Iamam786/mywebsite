@@ -101,11 +101,11 @@ export function Contact() {
                       <Button asChild className="flex-1 transition delay-150 duration-300 ease-in-out hover:bg-black hover:text-white">
                         <a href="mailto:abdulrahimali1998@gmal.com">Send Email</a>
                       </Button>
-                     /* <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
+                      { /* <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
                         <a href="https://docs.google.com/document/d/1i23K5xTBfNUWBRjQWx8MElZWhsMFMhk-/edit?usp=drivesdk&ouid=112482103788524993734&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
                           Download Resume
                         </a>
-                      </Button>*/
+                      </Button>*/}
                       <Button 
   variant="outline" 
   asChild 
