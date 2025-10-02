@@ -101,7 +101,6 @@ export function Contact() {
                       <Button asChild className="flex-1 transition delay-150 duration-300 ease-in-out hover:bg-black hover:text-white">
                         <a href="mailto:abdulrahimali1998@gmal.com">Send Email</a>
                       </Button>
-<<<<<<< HEAD
                       <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
                         <a href="/Abdul_Rahim_Resume_Portfolio.pdf" download="Abdul_Resume.pdf" target="_blank" rel="noopener noreferrer">
                           Download Resume
@@ -112,26 +111,6 @@ export function Contact() {
                           Read Online Resume
                         </a>
                       </Button>
-=======
-                      { /* <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
-                        <a href="https://docs.google.com/document/d/1i23K5xTBfNUWBRjQWx8MElZWhsMFMhk-/edit?usp=drivesdk&ouid=112482103788524993734&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
-                          Download Resume
-                        </a>
-                      </Button>*/}
-                      <Button 
-  variant="outline" 
-  asChild 
-  className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black"
->
-  <a 
-    href="/Abdul_Rahim_Resume_Portfolio.pdf" 
-    download="Resume.pdf"
-  >
-    Download Resume
-  </a>
-</Button>
-                      
->>>>>>> a0aaa77b17a3a399c2f71d3db6065f518cab94b0
                     </div>
                   </div>
                 </CardContent>
