@@ -97,13 +97,18 @@ export function Contact() {
                       then get in touch.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-3 pt-4">
+                    <div className="flex flex-col gap-3 pt-4">
                       <Button asChild className="flex-1 transition delay-150 duration-300 ease-in-out hover:bg-black hover:text-white">
                         <a href="mailto:abdulrahimali1998@gmal.com">Send Email</a>
                       </Button>
                       <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
-                        <a href="https://docs.google.com/document/d/1i23K5xTBfNUWBRjQWx8MElZWhsMFMhk-/edit?usp=drivesdk&ouid=112482103788524993734&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+                        <a href="/Abdul_Rahim_Resume_Portfolio.pdf" download="Abdul_Resume.pdf" target="_blank" rel="noopener noreferrer">
                           Download Resume
+                        </a>
+                      </Button>
+                      <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
+                        <a href="/Abdul_Rahim_Resume_Portfolio.pdf" target="_blank" rel="noopener noreferrer">
+                          Read Online Resume
                         </a>
                       </Button>
                     </div>
