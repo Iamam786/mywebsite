@@ -5,30 +5,25 @@ import { ExternalLink, Github } from "lucide-react"
 export function Projects() {
   const projects = [
     {
+      img: "/clickinpedia_logo.jpg",
       title: "ClickInPedia",
       description:
-        "A comprehensive knowledge platform built with React and Tailwind CSS, featuring interactive content and modern UI design.",
-      technologies: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+        "I contributed to the front-end development of ClickinPedia, focusing on responsive design, user experience, and performance optimization. The company specializes in digital marketing and software development solutions. My role involved building clean, scalable UI components and ensuring cross-device compatibility",
+      technologies: ["React", "Next.Js", "Tailwind CSS", "JavaScript", "Responsive Design"],
       liveUrl: "https://clickinpedia.com",
       githubUrl: "#",
     },
     {
+      img: "/assignmentwriter_logo.jpg",
       title: "Assignment Writer",
       description:
-        "An academic writing assistance platform developed with React and modern web technologies, helping students with their assignments.",
-      technologies: ["React", "Tailwind CSS", "Node.js", "Express", "Material UI"],
+        "Looking for top-quality assignment help in Australia? ✅ Get expert academic writing services from professional Aussie writers at Assignment Writers AU. Enjoy 100% plagiarism-free work, on-time delivery, and up to 50% OFF on your first order! Trusted by thousands of students nationwide.",
+      technologies: ["React", "Next.Js", "Tailwind CSS", "Node.js", "Express", "Material UI"],
       liveUrl: "https://assignmentwriter.au",
       githubUrl: "#",
     },
     {
-      title: "Portfolio Website",
-      description:
-        "A responsive portfolio website showcasing my skills and projects, built with modern web technologies.",
-      technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Responsive Design"],
-      liveUrl: "https://my-portfolio-seven-sigma-80.vercel.app/",
-      githubUrl: "https://github.com/Iamam786/my-portfolio",
-    },
-    {
+      img: "/weather.png",
       title: "Weather App",
       description:
         "A modern weather application developed using Create React App, React, CSS, and external APIs. It provides real-time weather updates with a clean and responsive user interface.",
@@ -36,15 +31,15 @@ export function Projects() {
       liveUrl: "https://weather-app-two-amber-93.vercel.app/",
       githubUrl: "https://github.com/Iamam786/weather-task"
     },
-    {
-      title: "ToDo List JS",
-      description:
-        "A simple and intuitive ToDo List application built using only HTML, CSS, and JavaScript. It allows users to add, delete, and manage daily tasks efficiently with a clean user interface.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://iamam786.github.io/ToDoListJs/",
-      githubUrl: "https://github.com/iamam786/ToDoListJs",
-
-    },
+    // {
+    //   img: "",
+    //   title: "Portfolio Website",
+    //   description:
+    //     "A responsive portfolio website showcasing my skills and projects, built with modern web technologies.",
+    //   technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Responsive Design"],
+    //   liveUrl: "https://my-portfolio-seven-sigma-80.vercel.app/",
+    //   githubUrl: "https://github.com/Iamam786/my-portfolio",
+    // },
   ]
 
   return (
@@ -54,7 +49,7 @@ export function Projects() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">Projects</h2>
-              <div className="w-16 h-1 bg-primary"></div>
+              <div className="w-30 h-1 bg-primary"></div>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -63,6 +58,10 @@ export function Projects() {
                   key={index}
                   className="bg-card border-border group hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 hover:-translate-y-2 cursor-pointer"
                 >
+                  <div className="rounded-lg h-64 overflow-hidden">
+                    <img alt="clickinpedia" className="object-fill rounded-t-4xl px-2 object-center h-full w-full" src={project.img} />
+                  </div>
+
                   <CardHeader>
                     <CardTitle className="text-foreground group-hover:text-primary transition-colors duration-300">
                       {project.title}

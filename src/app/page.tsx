@@ -21,11 +21,11 @@ export default function Home() {
         <ScrollReveal direction="right" delay={100}>
           <Skills />
         </ScrollReveal>
-        <ScrollReveal direction="left" delay={200}>
-          <Languages />
-        </ScrollReveal>
-        <ScrollReveal direction="right" delay={100}>
+        <ScrollReveal direction="left" delay={100}>
           <Projects />
+        </ScrollReveal>
+        <ScrollReveal direction="right" delay={200}>
+          <Languages />
         </ScrollReveal>
         <ScrollReveal direction="left" delay={150}>
           <Experience />

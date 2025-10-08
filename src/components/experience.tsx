@@ -35,7 +35,7 @@ export function Experience() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">Experience</h2>
-              <div className="w-16 h-1 bg-primary"></div>
+              <div className="w-38 h-1 bg-primary"></div>
             </div>
 
             <div className="space-y-6">

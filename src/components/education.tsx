@@ -39,7 +39,7 @@ export function Education() {
           <div className="space-y-12">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">Education & Certifications</h2>
-              <div className="w-16 h-1 bg-primary"></div>
+              <div className="w-40 h-1 bg-primary"></div>
             </div>
 
             {/* Education */}

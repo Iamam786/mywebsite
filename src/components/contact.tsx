@@ -108,7 +108,7 @@ export function Contact() {
                       </Button>
                       <Button variant="outline" asChild className="flex-1 bg-blue-200! text-black transition delay-150 duration-300 ease-in-out hover:bg-white! hover:text-black">
                         <a href="/Abdul_Rahim_Resume_Portfolio.pdf" target="_blank" rel="noopener noreferrer">
-                          Read Online Resume
+                          View Resume
                         </a>
                       </Button>
                     </div>

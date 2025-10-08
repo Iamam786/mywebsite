@@ -23,7 +23,7 @@ export function Skills() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">Skills</h2>
-              <div className="w-16 h-1 bg-primary"></div>
+              <div className="w-18 h-1 bg-primary"></div>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
